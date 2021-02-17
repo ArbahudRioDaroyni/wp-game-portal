@@ -13,8 +13,8 @@ function content_filter($content){
 
 	$patterns = [
 		'/<img ([^>]+)? class="([^>]+)?>/',
-		'/<figcaption ([^>]+)?>/',
-		'/<blockquote class="(.*?)"><p>(.*?)<\/p><cite><strong>(.*?)<\/strong><\/cite><\/blockquote>/'
+		'/<figcaption>/',
+		'/<blockquote class="(.*?)"><p>(.*?)<\/p><cite>(.*?)<\/cite><\/blockquote>/'
 	];
 	$replacements = [
 		'<img $1 class="img-fluid rounded w-100 $2>',
@@ -85,6 +85,19 @@ function get_list_popular_posts($total, $offset = 0){
 }
 
 add_theme_support( 'post-thumbnails' );
+
+function get_top_navigation(){
+	return 
+	'<header class="header">'
+	.get_template_part( 'template-parts/components/top-navs' )
+	.get_template_part( 'template-parts/components/navbar' )
+	.'</header>'
+	.get_template_part( 'template-parts/components/navbar-mobile' );
+}
+
+function get_logo(){
+	return 'https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png';
+}
 
 include 'inc/get-view-count.php';
 

@@ -2,7 +2,7 @@
 // get post view count
 function get_post_view() {
 	$count = get_post_meta( get_the_ID(), 'post_views_count', true );
-	return "views : $count";
+	return $count;
 }
 function set_post_view() {
 	$key = 'post_views_count';

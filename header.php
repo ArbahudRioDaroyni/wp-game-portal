@@ -54,15 +54,4 @@
     <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
   </head>
   <body>
-    <header class="header">
-      <!-- START: Top Navs -->
-      <?php get_template_part( 'template-parts/components/top-navs' ); ?>
-      <!-- END: Top Navs -->
-
-      <!-- START: Navbar -->
-      <?php get_template_part( 'template-parts/components/navbar' ); ?>
-      <!-- END: Navbar -->
-    </header>
-    <!--START: Navbar Mobile -->
-    <?php get_template_part( 'template-parts/components/navbar-mobile' ); ?>
-    <!-- END: Navbar Mobile -->
+    <?php if (!is_404()) { echo get_top_navigation(); } ?>

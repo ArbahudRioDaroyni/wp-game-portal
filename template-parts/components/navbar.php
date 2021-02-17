@@ -2,7 +2,7 @@
   <div class="container">
     <div class="nk-nav-table">
       <a href="<?= get_home_url() ?>" class="nk-nav-logo">
-      <img src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="JejakCyber" width="199">
+      <img src="<?= get_logo() ?>" alt="JejakCyber" width="199">
       </a>
       <ul class="nk-nav nk-nav-right d-none d-lg-table-cell" data-nav-mobile="#nk-nav-mobile">
         <li class="nk-drop-item">

@@ -143,6 +143,9 @@ a:hover {
             user-select: none;
     z-index: 2;
 }
+.nk-page-background-fixed {
+    z-index: -1;
+}
 
 .nk-page-background-bottom {
     top: auto;

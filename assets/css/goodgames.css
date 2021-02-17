@@ -7363,8 +7363,8 @@ div.nk-error {
     right: 0;
     bottom: 0;
     left: 0;
-    border-right: solid 4px #dd163b;
-    border-left: solid 4px #dd163b;
+    border-right: solid 4px #b61b3a;
+    border-left: solid 4px #b61b3a;
 }
 
 .nk-countdown .nk-hexagon .nk-hexagon-inner::before, .nk-countdown .nk-hexagon .nk-hexagon-inner::after {
@@ -7382,14 +7382,14 @@ div.nk-error {
 
 .nk-countdown .nk-hexagon .nk-hexagon-inner::before {
     top: -31.8198px;
-    border-top: solid 5.6569px #dd163b;
-    border-right: solid 5.6569px #dd163b;
+    border-top: solid 5.6569px #b61b3a;
+    border-right: solid 5.6569px #b61b3a;
 }
 
 .nk-countdown .nk-hexagon .nk-hexagon-inner::after {
     bottom: -31.8198px;
-    border-bottom: solid 5.6569px #dd163b;
-    border-left: solid 5.6569px #dd163b;
+    border-bottom: solid 5.6569px #b61b3a;
+    border-left: solid 5.6569px #b61b3a;
 }
 
 /*---------------------------

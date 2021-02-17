@@ -41,8 +41,8 @@
         <div class="nk-fullscreen-block-top">
           <div class="text-center">
             <div class="nk-gap-4"></div>
-            <a href="index.html">
-              <img src="<?php // echo get_template_directory_uri() ?>/assets/images/logo-2.png" alt="JejakCyber">
+            <a href="#">
+              <img style="width: 148px" src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="JejakCyber">
             </a>
             <div class="nk-gap-2"></div>
           </div>

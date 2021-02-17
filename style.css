@@ -88,6 +88,7 @@ width: 100%;
   width: 100%;
   height: 800px;
   object-fit: cover;
+  z-index: -1;
 }
 .bottom-gradient-opacity {
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.1)));

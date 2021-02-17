@@ -2,7 +2,7 @@
   <div class="nano">
     <div class="nano-content">
       <a href="index.html" class="nk-nav-logo">
-      <img src="<?= get_template_directory_uri() ?>/assets/images/logo.png" alt="" width="120">
+      <img src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="Jejak Cyber" width="120">
       </a>
       <nav class="nk-navbar-mobile-content">
         <ul class="nk-nav">

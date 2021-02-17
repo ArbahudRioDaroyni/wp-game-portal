@@ -19,14 +19,14 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <meta name="google-site-verification" content="1GS5b8XueaIk5rOTEhD8hwGXIfoZfAtK2KTCJlkJNDY" />
-    <title>Game Portal</title>
-    <meta name="description" content="Informasi, Review, dan Berita Seputar Game">
-    <meta name="keywords" content="Game, Gaming, Review Game, Berita Game">
+    <title>JejakCyber - Game Review, Artikel, Berita, Trailer</title>
+    <meta name="description" content="Informasi lengkap seputar Game review, artikel, berita, trailer, gameplay, dll.">
+    <meta name="keywords" content="Game, Gaming, Review Game, Berita Game, Artikel Game, Trailer game, Gameplay">
     <meta name='author' content='<?php bloginfo( 'name' ); ?>' />
-    <meta property="og:title" content="Game Portal" />
-    <meta name="twitter:title" content="Game Portal" />
-    <meta property="og:description" content="Informasi, Review, dan Berita Seputar Game" />
-    <meta name="twitter:description" content="Informasi, Review, dan Berita Seputar Game" />
+    <meta property="og:title" content="JejakCyber - Game Review, Artikel, Berita, Trailer" />
+    <meta name="twitter:title" content="JejakCyber - Game Review, Artikel, Berita, Trailer" />
+    <meta property="og:description" content="Informasi lengkap seputar Game review, artikel, berita, trailer, gameplay, dll." />
+    <meta name="twitter:description" content="Informasi lengkap seputar Game review, artikel, berita, trailer, gameplay, dll." />
     <link rel="alternate" href="<?= get_site_url() ?>/?lang=in" hreflang="in"/>
     <link rel="alternate" href="<?= get_site_url() ?>/" hreflang="x-default"/>
     <link rel="profile" href="https://gmpg.org/xfn/11" />

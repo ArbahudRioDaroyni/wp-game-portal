@@ -29,6 +29,7 @@
     <!-- END: Styles -->
     <!-- jQuery -->
     <script type='text/javascript' src="<?= get_template_directory_uri() ?>/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <?php wp_head() ?>
   </head>
   <!--
     Additional Classes:

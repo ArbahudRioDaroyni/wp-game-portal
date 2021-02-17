@@ -43,6 +43,11 @@
           <div class="nk-copyright-right">
             <ul class="nk-social-links-2">
               <li>
+                <span class="nk-social-youtube" title="Share page on Youtube" data-share="youtube">
+                  <ion-icon name="logo-Youtube"></ion-icon>
+                </span>
+              </li>
+              <li>
                 <span class="nk-social-facebook" title="Share page on Facebook" data-share="facebook">
                   <ion-icon name="logo-facebook"></ion-icon>
                 </span>

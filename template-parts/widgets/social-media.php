@@ -23,7 +23,7 @@
         </a>
       </li>
       <li>
-        <a rel="nofollow" class="nk-social-youtube" href="#">
+        <a rel="nofollow" class="nk-social-youtube" href="https://www.youtube.com/channel/UCJNyJT_mnde2Edrxn1PnPmg">
           <ion-icon name="logo-youtube"></ion-icon>
         </a>
       </li>

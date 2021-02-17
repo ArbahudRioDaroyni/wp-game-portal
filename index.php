@@ -18,10 +18,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jejak Cyber | Coming Soon</title>
-    <meta name="description" content="GoodGames - Bootstrap template for communities and games store">
+    <meta name="description" content="game portal website">
     <meta name="keywords" content="game, gaming, template, HTML template, responsive, Bootstrap, premium">
-    <meta name="author" content="_nK">
-    <link rel="icon" type="image/png" href="<?php // echo get_template_directory_uri() ?>/assets/images/favicon.png">
+    <meta name="author" content="Randdsoft">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/vendor/bootstrap/dist/css/bootstrap.min.css">

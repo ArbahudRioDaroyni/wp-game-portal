@@ -1,0 +1,98 @@
+/*
+
+Theme Name: Portal Game
+
+Theme URI: 
+
+Author: Arbahud Rio Daroyni
+
+Author URI: https://github.com/ArbahudRioDaroyni/
+
+Description: 
+
+Version: 0.1
+
+Requires at least: 4.7
+
+Requires PHP: 5.2.4
+
+Text Domain: jejakcyber
+
+*/
+
+.nk-social-links-col li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nk-social-links-col li a ion-icon {
+  font-size: 1.4em;
+  padding-bottom: 100%;
+}
+.nk-social-links li {
+  margin: 3px;
+}
+.nk-social-links li a {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+.nk-social-links li a ion-icon {
+  margin-left: 1px;
+}
+.nk-social-links-2 li span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nk-contacts-icons li a {
+  font-size: 1.125em;
+}
+.nk-post-date ion-icon {
+  font-size: 1.125em;
+}
+.nk-gallery-item-overlay {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-full-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+iframe {
+width: 100%;
+}
+.similar-img {
+  object-fit: cover;
+  max-height: 180px;
+}
+.recent-img {
+  object-fit: cover;
+  height: 91px !important;
+}
+.avatar-img {
+  width: 35px;
+  height: auto;
+}
+.img-hero {
+  object-fit: cover;
+  max-height: 350px;
+}
+.top-gradient-opacity {
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0));
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}
+.bottom-gradient-opacity {
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.1)));
+  mask-image: linear-gradient(to top, rgba(0,0,0,0.1), rgba(0,0,0,0));
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}

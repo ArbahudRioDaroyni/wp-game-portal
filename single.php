@@ -254,9 +254,6 @@
 if ( has_post_thumbnail() ) {
   the_post_thumbnail(NULL, ['class' => 'nk-page-background-top top-gradient-opacity']); ?>
   <img src="<?= get_first_image_in_post() ?>" class="nk-page-background-bottom bottom-gradient-opacity" alt="<?= get_the_title() ?>" />
-<?php } else { ?>
-  <img src="<?= get_first_image_in_post() ?>" class="nk-page-background-top top-gradient-opacity" alt="<?= get_the_title() ?>" />
-  <img src="<?= get_first_image_in_post() ?>" class="nk-page-background-bottom bottom-gradient-opacity" alt="<?= get_the_title() ?>" />
 <?php } ?>
 <!-- END: Page Background -->
 

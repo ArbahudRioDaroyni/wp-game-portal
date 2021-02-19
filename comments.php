@@ -35,8 +35,8 @@ if ( post_password_required() ) {
 					// 'max_depth'					=> 1,
 					'per_page'					=> 3,
 					'reverse_top_level'	=> true,
-					'callback'					=> 'comment_list',
-					'avatar_size'				=> 35
+					'avatar_size'				=> 35,
+					'callback'					=> 'comment_list'
 				]);
 			?>
 		</ul><!-- .comment-list -->

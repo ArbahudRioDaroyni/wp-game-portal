@@ -85,12 +85,6 @@ function get_list_popular_posts($total, $offset = 0){
 }
 
 add_theme_support( 'post-thumbnails' );
-function the_post_thumbnail_remove_class($output) {
-	$output = preg_replace('/width=".*?"/', '', $output);
-	$output = preg_replace('/height=".*?"/', '', $output);
-	return $output;
-}
-add_filter('post_thumbnail_html', 'the_post_thumbnail_remove_class');
 
 function get_top_navigation(){
 	return 

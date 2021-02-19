@@ -42,16 +42,21 @@
     <!-- end wp_head -->
 
     <!-- custon css -->
-    <link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri() ?>/assets/vendor/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri() ?>/assets/vendor/photoswipe/dist/photoswipe.css">
-    <link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri() ?>/assets/vendor/photoswipe/dist/default-skin/default-skin.css">
-    <link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri() ?>/assets/css/goodgames.css">
-    <link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri() ?>/assets/css/main.min.css">
-    <link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri() ?>/style.css">
-
-    <script type='text/javascript' src="<?= get_template_directory_uri() ?>/assets/vendor/jquery/dist/jquery.min.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href=""> -->
+    <!-- <link rel="stylesheet" type="text/css" href=""> -->
+    <link rel="preload" href="<?= get_template_directory_uri() ?>/assets/vendor/bootstrap/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="<?= get_template_directory_uri() ?>/assets/vendor/photoswipe/dist/photoswipe.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <!-- <link rel="preload" href="<?= get_template_directory_uri() ?>/assets/vendor/photoswipe/dist/default-skin/default-skin.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
+    <link rel="preload" href="<?= get_template_directory_uri() ?>/assets/css/goodgames.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="<?= get_template_directory_uri() ?>/assets/css/main.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="<?= get_template_directory_uri() ?>/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <noscript><link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/vendor/bootstrap/dist/css/bootstrap.min.css"></noscript>
+    <noscript><link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/vendor/photoswipe/dist/photoswipe.css"></noscript>
+    <!-- <noscript><link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/vendor/photoswipe/dist/default-skin/default-skin.css"></noscript> -->
+    <noscript><link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/css/goodgames.css"></noscript>
+    <noscript><link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/css/main.min.css"></noscript>
+    <noscript><link rel="stylesheet" href="<?= get_template_directory_uri() ?>/style.css"></noscript>
   </head>
   <body>
     <?php if (!is_404()) { echo get_top_navigation(); } ?>

@@ -96,7 +96,7 @@ function get_top_navigation(){
 }
 
 function get_logo(){
-	return 'https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png';
+	return 'https://jejakcyber.com/wp-content/uploads/2021/02/logo-jejak-cyber-1.png';
 }
 
 include 'inc/get-view-count.php';

@@ -28,7 +28,7 @@
             <div class="nk-cart-dropdown">
               <div class="nk-widget-post">
                 <a href="store-product.html" class="nk-post-image">
-                  <img src="<?= get_template_directory_uri() ?>/assets/images/product-5-xs.jpg" alt="In all revolutions of">
+                  <img src="" alt="In all revolutions of">
                 </a>
                 <h3 class="nk-post-title">
                   <a href="#" class="nk-cart-remove-item"><span class="ion-android-close"></span></a>
@@ -39,7 +39,7 @@
               </div>
               <div class="nk-widget-post">
                 <a href="store-product.html" class="nk-post-image">
-                  <img src="<?= get_template_directory_uri() ?>/assets/images/product-7-xs.jpg" alt="With what mingled joy">
+                  <img src="" alt="With what mingled joy">
                 </a>
                 <h3 class="nk-post-title">
                   <a href="#" class="nk-cart-remove-item"><span class="ion-android-close"></span></a>

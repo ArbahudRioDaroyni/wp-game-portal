@@ -86,13 +86,13 @@
                 <div class="row sm-gap vertical-gap">
                   <div class="col-sm-6">
                     <div class="nk-gallery-item-box">
-                      <a href="<?= get_template_directory_uri() ?>/assets/images/gallery-1.jpg" class="nk-gallery-item" data-size="1016x572">
+                      <a href="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" class="nk-gallery-item" data-size="1016x572">
                         <div class="nk-gallery-item-overlay">
                           <span class="ion-eye">
                             <ion-icon name="eye-outline"></ion-icon>
                           </span>
                         </div>
-                        <img src="<?= get_template_directory_uri() ?>/assets/images/gallery-1-thumb.jpg" alt="">
+                        <img src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="">
                       </a>
                       <div class="nk-gallery-item-description">
                         <h4>Called Let</h4>
@@ -102,13 +102,13 @@
                   </div>
                   <div class="col-sm-6">
                     <div class="nk-gallery-item-box">
-                      <a href="<?= get_template_directory_uri() ?>/assets/images/gallery-2.jpg" class="nk-gallery-item" data-size="1188x594">
+                      <a href="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" class="nk-gallery-item" data-size="1188x594">
                         <div class="nk-gallery-item-overlay">
                           <span class="ion-eye">
                             <ion-icon name="eye-outline"></ion-icon>
                           </span>
                         </div>
-                        <img src="<?= get_template_directory_uri() ?>/assets/images/gallery-2-thumb.jpg" alt="">
+                        <img src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="">
                       </a>
                       <div class="nk-gallery-item-description">
                         Seed open don't thing midst created dry every greater divided of, be man is. Second Bring stars fourth gathering he hath face morning fill. Living so second darkness. Moveth were male. May creepeth. Be tree fourth.
@@ -117,49 +117,49 @@
                   </div>
                   <div class="col-sm-6">
                     <div class="nk-gallery-item-box">
-                      <a href="<?= get_template_directory_uri() ?>/assets/images/gallery-3.jpg" class="nk-gallery-item" data-size="625x350">
+                      <a href="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" class="nk-gallery-item" data-size="625x350">
                         <div class="nk-gallery-item-overlay">
                           <span class="ion-eye">
                             <ion-icon name="eye-outline"></ion-icon>
                           </span>
                         </div>
-                        <img src="<?= get_template_directory_uri() ?>/assets/images/gallery-3-thumb.jpg" alt="">
+                        <img src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="">
                       </a>
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="nk-gallery-item-box">
-                      <a href="<?= get_template_directory_uri() ?>/assets/images/gallery-4.jpg" class="nk-gallery-item" data-size="873x567">
+                      <a href="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" class="nk-gallery-item" data-size="873x567">
                         <div class="nk-gallery-item-overlay">
                           <span class="ion-eye">
                             <ion-icon name="eye-outline"></ion-icon>
                           </span>
                         </div>
-                        <img src="<?= get_template_directory_uri() ?>/assets/images/gallery-4-thumb.jpg" alt="">
+                        <img src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="">
                       </a>
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="nk-gallery-item-box">
-                      <a href="<?= get_template_directory_uri() ?>/assets/images/gallery-5.jpg" class="nk-gallery-item" data-size="471x269">
+                      <a href="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" class="nk-gallery-item" data-size="471x269">
                         <div class="nk-gallery-item-overlay">
                           <span class="ion-eye">
                             <ion-icon name="eye-outline"></ion-icon>
                           </span>
                         </div>
-                        <img src="<?= get_template_directory_uri() ?>/assets/images/gallery-5-thumb.jpg" alt="">
+                        <img src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="">
                       </a>
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="nk-gallery-item-box">
-                      <a href="<?= get_template_directory_uri() ?>/assets/images/gallery-6.jpg" class="nk-gallery-item" data-size="472x438">
+                      <a href="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" class="nk-gallery-item" data-size="472x438">
                         <div class="nk-gallery-item-overlay">
                           <span class="ion-eye">
                             <ion-icon name="eye-outline"></ion-icon>
                           </span>
                         </div>
-                        <img src="<?= get_template_directory_uri() ?>/assets/images/gallery-6-thumb.jpg" alt="">
+                        <img src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="">
                       </a>
                     </div>
                   </div>
@@ -175,11 +175,11 @@
                 <span class="nk-widget-match-left">
                 <span class="nk-widget-match-teams">
                 <span class="nk-widget-match-team-logo">
-                <img src="<?= get_template_directory_uri() ?>/assets/images/team-1.jpg" alt="">
+                <img src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="">
                 </span>
                 <span class="nk-widget-match-vs">VS</span>
                 <span class="nk-widget-match-team-logo">
-                <img src="<?= get_template_directory_uri() ?>/assets/images/team-2.jpg" alt="">
+                <img src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="">
                 </span>
                 </span>
                 <span class="nk-widget-match-date">CS:GO - Apr 28, 2018 8:00 pm</span>
@@ -196,11 +196,11 @@
                 <span class="nk-widget-match-left">
                 <span class="nk-widget-match-teams">
                 <span class="nk-widget-match-team-logo">
-                <img src="<?= get_template_directory_uri() ?>/assets/images/team-3.jpg" alt="">
+                <img src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="">
                 </span>
                 <span class="nk-widget-match-vs">VS</span>
                 <span class="nk-widget-match-team-logo">
-                <img src="<?= get_template_directory_uri() ?>/assets/images/team-2.jpg" alt="">
+                <img src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="">
                 </span>
                 </span>
                 <span class="nk-widget-match-date">LoL - Apr 24, 2018 7:20 pm</span>
@@ -217,11 +217,11 @@
                 <span class="nk-widget-match-left">
                 <span class="nk-widget-match-teams">
                 <span class="nk-widget-match-team-logo">
-                <img src="<?= get_template_directory_uri() ?>/assets/images/team-1.jpg" alt="">
+                <img src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="">
                 </span>
                 <span class="nk-widget-match-vs">VS</span>
                 <span class="nk-widget-match-team-logo">
-                <img src="<?= get_template_directory_uri() ?>/assets/images/team-4.jpg" alt="">
+                <img src="https://jejakcyber.com/wp-content/uploads/2021/02/Logo-Jejak-Cyber.png" alt="">
                 </span>
                 </span>
                 <span class="nk-widget-match-date">Dota 2 - Apr 12, 2018 6:40 pm</span>

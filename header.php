@@ -41,22 +41,23 @@
     <?php wp_head(); ?>
     <!-- end wp_head -->
 
-    <!-- custon css -->
-    <!-- <link rel="stylesheet" type="text/css" href=""> -->
-    <!-- <link rel="stylesheet" type="text/css" href=""> -->
     <link rel="preload" href="<?= get_template_directory_uri() ?>/assets/vendor/bootstrap/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="<?= get_template_directory_uri() ?>/assets/vendor/photoswipe/dist/photoswipe.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <!-- <link rel="preload" href="<?= get_template_directory_uri() ?>/assets/vendor/photoswipe/dist/default-skin/default-skin.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
     <link rel="preload" href="<?= get_template_directory_uri() ?>/assets/css/goodgames.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="<?= get_template_directory_uri() ?>/assets/css/main.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="<?= get_template_directory_uri() ?>/assets/css/main.min.css?ver=0.3" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="<?= get_template_directory_uri() ?>/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     
     <noscript><link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/vendor/bootstrap/dist/css/bootstrap.min.css"></noscript>
     <noscript><link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/vendor/photoswipe/dist/photoswipe.css"></noscript>
-    <!-- <noscript><link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/vendor/photoswipe/dist/default-skin/default-skin.css"></noscript> -->
     <noscript><link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/css/goodgames.css"></noscript>
-    <noscript><link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/css/main.min.css"></noscript>
+    <noscript><link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/css/main.min.css?ver=0.3"></noscript>
     <noscript><link rel="stylesheet" href="<?= get_template_directory_uri() ?>/style.css"></noscript>
   </head>
   <body>
-    <?php if (!is_404()) { echo get_top_navigation(); } ?>
+    <?php if ( !is_404() ) {
+      '<header class="header">'
+      .get_template_part( 'template-parts/components/top-navs' )
+      .get_template_part( 'template-parts/components/navbar' )
+      .'</header>'
+      .get_template_part( 'template-parts/components/navbar-mobile' );
+     } ?>

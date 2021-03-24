@@ -1,4 +1,4 @@
-.top-navs {
+.jc-top-navs {
   padding: 8px 0;
   font-size: .85rem;
   color: #fff;
@@ -7,13 +7,13 @@
     display: block;
     clear: both;
   }
-  .top-navs-left {
+  .jc-top-navs-left {
     float: left;
   }
-  .top-navs-right {
+  .jc-top-navs-right {
     float: right;
   }
-  .top-navs-icons {
+  .jc-top-navs-icons {
     position: relative;
     padding: 0;
     margin: 0;
@@ -44,19 +44,19 @@
 }
 
 @media screen and (max-width: $layout-breakpoint-small) {
-  .top-navs {
-    .top-navs-left, .top-navs-right {
+  .jc-top-navs {
+    .jc-top-navs-left, .jc-top-navs-right {
       float: none;
       text-align: center;
     }
-    .top-navs-right {
+    .jc-top-navs-right {
       margin-top: 10px;
     }
   }
 }
 
 @media screen and (max-width: $layout-breakpoint-medium) {
-  .top-navs-icons {
-      margin-right: 0;
+  .jc-top-navs-icons {
+    margin-right: 0;
   }
 }

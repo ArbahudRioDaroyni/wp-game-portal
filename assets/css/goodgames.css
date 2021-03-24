@@ -3196,11 +3196,11 @@ img.rounded {
     white-space: initial;
 }
 
-@media (max-width: 420px) {
+/* @media (max-width: 420px) {
     .nk-navbar.nk-navbar-top .nk-nav-logo {
         display: none;
     }
-}
+} */
 
 .nk-navbar a {
     color: inherit;

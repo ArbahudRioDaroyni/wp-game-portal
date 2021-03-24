@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Cooming Soon
+ * The template for displaying the home
  *
  * Displays all of the head element and everything up until the "site-content" div.
  *

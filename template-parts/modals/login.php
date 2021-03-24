@@ -12,9 +12,9 @@
             <div class="col-md-6">
               Use email and password:
               <div class="nk-gap"></div>
-              <input type="email" value="" name="email" class=" form-control" placeholder="Email">
+              <input type="email" value="" name="email" class=" form-control" placeholder="Email" autocomplete="username">
               <div class="nk-gap"></div>
-              <input type="password" value="" name="password" class="required form-control" placeholder="Password">
+              <input type="password" value="" name="password" class="required form-control" placeholder="Password" autocomplete="current-password">
             </div>
             <div class="col-md-6">
               Or social account:

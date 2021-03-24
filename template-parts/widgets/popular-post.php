@@ -16,8 +16,8 @@
         <?php } ?>
       </a>
       <h3 class="nk-post-title"><a href="<?= get_the_permalink() ?>"><?= get_the_title() ?></a></h3>
-      <div class="nk-product-rating" data-rating="4"> <ion-icon name="star-sharp"></ion-icon><ion-icon name="star-sharp"></ion-icon><ion-icon name="star-sharp"></ion-icon><ion-icon name="star-sharp"></ion-icon></div>
-      <div class="nk-product-price"><ion-icon name="eye-outline"></ion-icon> <?= get_post_view() ?> pengunjung</div>
+      <!-- <div class="nk-product-rating" data-rating="4"> <ion-icon name="star-sharp"></ion-icon><ion-icon name="star-sharp"></ion-icon><ion-icon name="star-sharp"></ion-icon><ion-icon name="star-sharp"></ion-icon></div> -->
+      <!-- <div class="nk-product-price"><ion-icon name="eye-outline"></ion-icon> <?php // get_post_view() ?> pengunjung</div> -->
     </div>
     <?php endforeach; wp_reset_postdata() ?>
   </div>

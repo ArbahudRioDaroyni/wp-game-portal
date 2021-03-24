@@ -1,4 +1,7 @@
 <?php
+$theme = wp_get_theme();
+define('THEME_VERSION', $theme->Version);
+
 remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
 
@@ -85,21 +88,13 @@ function get_list_popular_posts($total, $offset = 0){
 }
 
 add_theme_support( 'post-thumbnails' );
-function the_post_thumbnail_remove_class($output) {
+
+function the_post_thumbnail_remove_attr($output) {
 	$output = preg_replace('/width=".*?"/', '', $output);
 	$output = preg_replace('/height=".*?"/', '', $output);
 	return $output;
 }
-add_filter('post_thumbnail_html', 'the_post_thumbnail_remove_class');
-
-function get_top_navigation(){
-	return 
-	'<header class="header">'
-	.get_template_part( 'template-parts/components/top-navs' )
-	.get_template_part( 'template-parts/components/navbar' )
-	.'</header>'
-	.get_template_part( 'template-parts/components/navbar-mobile' );
-}
+add_filter('post_thumbnail_html', 'the_post_thumbnail_remove_attr');
 
 function get_logo(){
 	return 'https://jejakcyber.com/wp-content/uploads/2021/02/logo-jejak-cyber-1.png';

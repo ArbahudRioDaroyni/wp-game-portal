@@ -1,6 +1,6 @@
-<div class="top-navs">
+<div class="jc-top-navs">
   <div class="container">
-    <div class="top-navs-left">
+    <div class="jc-top-navs-left">
       <ul class="nk-social-links">
         <li><a rel="nofollow" class="nk-social-rss" href="#"><ion-icon name="logo-rss"></ion-icon></a></li>
         <li><a rel="nofollow" class="nk-social-facebook" href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
@@ -8,8 +8,8 @@
         <li><a rel="nofollow" class="nk-social-youtube" href="https://www.youtube.com/channel/UCJNyJT_mnde2Edrxn1PnPmg"><ion-icon name="logo-youtube"></ion-icon></a></li>
       </ul>
     </div>
-      <div class="top-navs-right">
-        <ul class="top-navs-icons">
+      <div class="jc-top-navs-right">
+        <ul class="jc-top-navs-icons">
           <li>
             <a href="#" data-toggle="modal" data-target="#modalSearch">
               <ion-icon name="search-outline"></ion-icon>

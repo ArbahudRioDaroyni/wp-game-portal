@@ -16,9 +16,9 @@
           <a href="blog-list.html">Blog</a>
           <ul class="dropdown">
             <li><a href="news.html">News</a></li>
-            <li class="active"><a href="blog-article.html">Review</a></li>
-            <li class="active"><a href="blog-article.html">Preview</a></li>
-            <li class="active"><a href="blog-article.html">Guides</a></li>
+            <li><a href="blog-article.html">Preview</a></li>
+            <li><a href="blog-article.html">Guides</a></li>
+            <li><a href="blog-article.html">Review</a></li>
             <!-- <li class=" nk-drop-item">
               <a href="blog-grid.html">Blog With Sidebar</a>
               <ul class="dropdown">

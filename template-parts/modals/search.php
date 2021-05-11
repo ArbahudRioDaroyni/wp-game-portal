@@ -8,7 +8,7 @@
         <h4 class="mb-0"><?php echo esc_html( __( 'Search' ) )?></h4>
         <div class="nk-gap-1"></div>
         <form role="search" method="get" id="searchformmoda" class="searchform nk-form nk-form-style-1" action="<?php echo esc_url( home_url( '/' ) ); ?>" novalidate="novalidate">
-          <input type="text" value="<?php echo get_search_query(); ?>" name="s" id="smodal" class="form-control" placeholder="Ketik sesuatu dan tekan enter">
+          <input type="text" value="<?php echo get_search_query(); ?>" name="s" id="smodal" class="form-control" placeholder="Ketik sesuatu dan tekan enter" autofocus>
         </form>
       </div>
     </div>

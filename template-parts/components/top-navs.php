@@ -58,3 +58,7 @@
       </div>
   </div>
 </div>
+
+<!-- START: Search Modal -->
+<?php get_template_part( 'template-parts/modals/search' ); ?>
+<!-- END: Search Modal -->

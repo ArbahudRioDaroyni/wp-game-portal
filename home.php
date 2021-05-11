@@ -41,10 +41,6 @@ if ( has_post_thumbnail() ) {
 <?php } ?>
 <!-- END: Page Background -->
 
-<!-- START: Search Modal -->
-<?php get_template_part( 'template-parts/modals/search' ); ?>
-<!-- END: Search Modal -->
-
 <!-- START: Login Modal -->
 <?php get_template_part( 'template-parts/modals/login' ); ?>
 <!-- END: Login Modal -->
